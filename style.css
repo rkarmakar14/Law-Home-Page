@@ -1,0 +1,136 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+body{
+    /* font-family: Red Rose,serif; */
+background-color: #242B2E;
+/* color: #f1f0ef; */
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+     /* background-color: #f1f0ef;  */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    width:100vw;
+}
+.navbar{
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+    justify-content:space-between;
+    height: 10vh;
+    margin-top: 10px;
+
+}
+.navbar>div{
+    display:flex;
+    flex-direction: row;
+    flex: 0.33;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    /* background-color: #f1f0ef;  */
+}
+
+.navbar>div>img{
+    display: block;
+width: 25%;
+margin-left: -40%;
+}
+.list{
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+    justify-content:space-between;
+    color: #f1f0ef;
+    list-style: none;
+    margin-left: 0%;
+}
+
+
+
+.list-item{
+font-size: 12pt;
+font-weight: 400;
+    
+}
+
+.list-item:hover{
+    cursor: pointer;
+    font-size: 12pt;
+    font-weight: 800;
+    }
+
+button{
+    margin: auto;
+    display: block;
+    text-align: center;
+    align-items: flex-end;
+    width: 200px;
+    height: 80%;
+ 
+    background-color:transparent;
+    color: #655c2c;
+    border: 2px solid  #655c2c;
+    border-radius: 0.5em;
+    padding: 0.7rem 2.5rem 1rem 2.5rem;
+
+    font-weight: 700;
+    font-size: 1rem;
+    cursor:grabbing;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+button:hover{
+        color: #655c2c;
+        outline: 0;
+}
+    .button-small{
+        transition:box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    }
+    .button-small:hover{
+        box-shadow: 0 0 40px 10px #655c2c ;
+    }
+
+.hero{
+margin-top: 5%;
+display: flex;
+flex-direction: row;
+text-align:start;
+
+}
+.hero-heading{
+display: inline;
+width: 150%;
+margin-left: 5%;
+font-size: 50pt;
+padding-right: 0%;
+}
+.hero>p{
+display: inline;
+font-size: 14pt;
+padding-right: 20%;
+margin-top: 2%;
+}
+
+.bottom>div>img{
+    position: fixed;
+    top: 50%;
+    left: -0%;
+    width: 100vw;
+    height: 50vh;
+}
+
